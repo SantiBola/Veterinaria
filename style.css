@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(209, 209, 188);
+    color: black;
+    line-height: 1.5;
+}
+
+h1,h2,h3{
+    font-family: sans-serif, arial;
+    line-height: 1.1;
+}
+
+a{
+    color: inherit;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3,p{
+    margin-top: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 15px 5%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+    list-style: none;
+}
